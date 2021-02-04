@@ -73,9 +73,15 @@ const Bio = () => {
             )}
             <p>
             -Certified Babe Extensionist
-            -Upstyling -Makeup Artist
-            -Blowouts -Skincare
             </p>
+            <p>
+            -Upstyling -Makeup Artist
+            </p>
+            <p>
+            -Blowouts
+            </p>
+            <p>-Skincare</p>
+            
           </div>
         </Row>
         <Row style={{padding :"15px"}}>

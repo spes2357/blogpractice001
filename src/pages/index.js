@@ -34,11 +34,11 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All posts" />
       <Container>
       <Row>
-        <Col class ="col-3">
+        <Col class ="col-md-3 col-md-pull-3">
           <Bio />
         </Col>
 
-        <Col class ="col-9">
+        <Col class ="col-md-9 col-md-push-9">
           <ol style={{ listStyle: `none` }}>
             {posts.map(post => {
               const title = post.frontmatter.title || post.fields.slug

@@ -72,17 +72,19 @@ const Bio = () => {
               </p>
             )}
             <p>
-              ellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
+            -Certified Babe Extensionist
+            -Upstyling -Makeup Artist
+            -Blowouts -Skincare
             </p>
           </div>
         </Row>
         <Row style={{padding :"15px"}}>
           <div style={{margin: "5px 5px 5px 5px"}}>
-            <SocialIcon url="http://facebook.com/jaketrent" />
+            <SocialIcon url="http://facebook.com/chey.charette/" />
           </div>
           <div style={{margin: "5px 5px 5px 5px"}}>
             
-            <SocialIcon url="http://instagram.com/jaketrent" />
+            <SocialIcon url="http://instagram.com/cheycharette" />
           </div>
         </Row>
       </Container>

@@ -2,11 +2,12 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Container from 'react-bootstrap/Container'
+
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
@@ -32,7 +33,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Container>
-      <Row class= "align-items-start">
+      <Row>
         <Col class ="col-3">
           <Bio />
         </Col>
